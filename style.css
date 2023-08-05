@@ -47,7 +47,7 @@ body {
     display: grid;
     place-items: center;
     margin: 1rem;
-    background: url("./images/pattern-background-desktop.svg") no-repeat center / cover;
+    background: top/contain url("./images/pattern-background-desktop.svg") no-repeat #E1E9FF;
     background-color: var(--clr-primary-100);
 }
 @media (max-width: 600px) {
